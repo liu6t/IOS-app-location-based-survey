@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25E4E876E772356344DA21CFADB39BD3 /* Pods-Test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34AB7A009B93A7F6124CD64F7BE67F24 /* Pods-Test-dummy.m */; };
+		BEE7997952892D11ABB8214250659FE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		057B9B5664EBDF99F445A06963F992B8 /* Pods-Test-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-resources.sh"; sourceTree = "<group>"; };
+		061E92BB2BCCEB75964E98508C898730 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Subspecs/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		09192D57000C5D636453A1B7095B264B /* KCSUser+SocialExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KCSUser+SocialExtras.h"; path = "KinveyKit-1.41.1/include/KinveyKit/KCSUser+SocialExtras.h"; sourceTree = "<group>"; };
+		12E89B4AAD6EB1C54800C320C63B6AE3 /* KinveyFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyFileStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyFileStore.h"; sourceTree = "<group>"; };
+		14101E959CA55D257A059451B3E92B45 /* KCSBackgroundAppdataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSBackgroundAppdataStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSBackgroundAppdataStore.h"; sourceTree = "<group>"; };
+		1B381D7700770CDAC5A2A7446707C9DC /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		1BA7D501395C6F8D736E99A1AD3C0420 /* KCSFile.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSFile.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSFile.h"; sourceTree = "<group>"; };
+		1C716B096C0C27EB4C34F779AE4BE237 /* KinveyEntity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyEntity.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyEntity.h"; sourceTree = "<group>"; };
+		1DD5C7B154FDC726DA80892417310A08 /* KCSPush2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSPush2.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSPush2.h"; sourceTree = "<group>"; };
+		1E5DBEC46DBF03B8D4F7AC4170B8ACBD /* KinveyPersistable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyPersistable.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyPersistable.h"; sourceTree = "<group>"; };
+		200C61A891EFF3E22CAC36F866F0FE4A /* libKinveyKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libKinveyKit.a; path = "KinveyKit-1.41.1/libKinveyKit.a"; sourceTree = "<group>"; };
+		20C14EAEC297B6264BFE47D45239BDDA /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		24054E7A51F23DC83C673512054DC70A /* KCSFacebookHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSFacebookHelper.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSFacebookHelper.h"; sourceTree = "<group>"; };
+		2A72899288972745BA643575E877AECE /* Pods-Test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Test-frameworks.sh"; sourceTree = "<group>"; };
+		2D7B847B2AE552402ADC20D1CEB770F4 /* KCSRequestConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSRequestConfiguration.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSRequestConfiguration.h"; sourceTree = "<group>"; };
+		2F1C5FEB70200C53A4C15811385BF48A /* Pods-Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.release.xcconfig"; sourceTree = "<group>"; };
+		2F2268268A217D37B25D7194FAFC7BB1 /* KinveyPing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyPing.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyPing.h"; sourceTree = "<group>"; };
+		32513F0CB0472BE9136063725A583FED /* KCSBase64.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSBase64.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSBase64.h"; sourceTree = "<group>"; };
+		326271367F3B9C91E93E2288A0519E88 /* KCSUserActionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSUserActionResult.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSUserActionResult.h"; sourceTree = "<group>"; };
+		328E2C67E2EC2F818CF907B2F0A7508D /* KinveyUserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyUserService.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyUserService.h"; sourceTree = "<group>"; };
+		343F1914D45ECED2433DF59AF4D70F54 /* KCSRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSRequest.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSRequest.h"; sourceTree = "<group>"; };
+		348E3B70EE46E8F8AB8D8A7A590E2376 /* KCSPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSPush.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSPush.h"; sourceTree = "<group>"; };
+		34AB7A009B93A7F6124CD64F7BE67F24 /* Pods-Test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Test-dummy.m"; sourceTree = "<group>"; };
+		3E98FB265B854F649EEBB550EF4A9DA7 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Subspecs/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		400FC5FEE52517C648C812C847E6821D /* KinveyVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyVersion.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyVersion.h"; sourceTree = "<group>"; };
+		44223FBD3BC973292636B3CF4219327E /* KinveyCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyCore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyCore.h"; sourceTree = "<group>"; };
+		46E1F4096F19887D0145EB30E8F9C8F2 /* KCSClientConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSClientConfiguration.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSClientConfiguration.h"; sourceTree = "<group>"; };
+		4898E502BBD2F60F81C67BC2A23DF5DD /* KCSQuery2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSQuery2.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSQuery2.h"; sourceTree = "<group>"; };
+		4DFC7D245AE82F97DAEBB0E2F93D4EF5 /* KCSOfflineUpdateDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSOfflineUpdateDelegate.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSOfflineUpdateDelegate.h"; sourceTree = "<group>"; };
+		563A0BD9AFC5E7B4CDB3EF64241982BE /* KinveyKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyKit.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyKit.h"; sourceTree = "<group>"; };
+		564B5FAD67DB81AC2D26FC2FA2BEC008 /* KCSWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSWebView.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSWebView.h"; sourceTree = "<group>"; };
+		57048BCD7963DD3631181A0A6BC7DDB6 /* KCSUser2+KinveyUserService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KCSUser2+KinveyUserService.h"; path = "KinveyKit-1.41.1/include/KinveyKit/KCSUser2+KinveyUserService.h"; sourceTree = "<group>"; };
+		67F72A4EB54C2119B2CF30770E0B1C4B /* KinveyDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyDataStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyDataStore.h"; sourceTree = "<group>"; };
+		698888E64E9D93E5F5EA1ADCE9DA5D1D /* KCSAuthCredential.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSAuthCredential.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSAuthCredential.h"; sourceTree = "<group>"; };
+		6B6673C2DDEA6766E4F05889DA7BDC7F /* KCSClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSClient.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSClient.h"; sourceTree = "<group>"; };
+		6CD5475DA7EB239DCA70F7DB9D816888 /* KCSCustomEndpoints.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSCustomEndpoints.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSCustomEndpoints.h"; sourceTree = "<group>"; };
+		70376BB4FE9D1C4CC94AA84902170F6D /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Subspecs/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		7060B820262650771767225FFE201B1E /* KCSCacheUpdatePolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSCacheUpdatePolicy.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSCacheUpdatePolicy.h"; sourceTree = "<group>"; };
+		729E541BB66F5F48567A361441AC035F /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Subspecs/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		7384798F25DA99015144D3D5E4019088 /* NSString+KinveyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+KinveyAdditions.h"; path = "KinveyKit-1.41.1/include/KinveyKit/NSString+KinveyAdditions.h"; sourceTree = "<group>"; };
+		74AF9545D8C51B25757D7F9E1A442572 /* KCSPing2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSPing2.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSPing2.h"; sourceTree = "<group>"; };
+		760DD66B6B1671437F056CEE23B76337 /* KinveyHeaderInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyHeaderInfo.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyHeaderInfo.h"; sourceTree = "<group>"; };
+		763A494CAD943ECF7B2C4855DD40E312 /* KCSReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSReachability.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSReachability.h"; sourceTree = "<group>"; };
+		775A05A31914406E4CD746FCC05ED786 /* KinveyCollection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyCollection.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyCollection.h"; sourceTree = "<group>"; };
+		7DAED8E7FB5E174C500F220BCC85E233 /* KCSCachedStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSCachedStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSCachedStore.h"; sourceTree = "<group>"; };
+		7FB444DB1F3C50CF4353EC59956B661D /* KinveyKitExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyKitExtras.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyKitExtras.h"; sourceTree = "<group>"; };
+		83AA86F845897C1431842283A0B78899 /* KCSBlockDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSBlockDefs.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSBlockDefs.h"; sourceTree = "<group>"; };
+		8C598DEA28DE9D9F96D4780FDE79D492 /* KCSQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSQuery.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSQuery.h"; sourceTree = "<group>"; };
+		920A10832FB38D2B738C95033142D121 /* Pods-Test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9518066445150E189288201B800AEB08 /* KCSAppdataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSAppdataStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSAppdataStore.h"; sourceTree = "<group>"; };
+		9771AAEA03703EAD71907902BD8E5D4E /* CLLocation+Kinvey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocation+Kinvey.h"; path = "KinveyKit-1.41.1/include/KinveyKit/CLLocation+Kinvey.h"; sourceTree = "<group>"; };
+		9875F25C1B87E7281A433B9AC3F110FD /* KCSLinkedAppdataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSLinkedAppdataStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSLinkedAppdataStore.h"; sourceTree = "<group>"; };
+		9ED552F46C5FFDA83E69BF63062254AE /* KCSGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSGroup.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSGroup.h"; sourceTree = "<group>"; };
+		A7AA39B4814E3A0DB306B10448351606 /* libPods-Test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B22A64345FA4338F1D90FC31FB3A26DC /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		B307392E95F5E5634131DAE5E1608B43 /* KinveyLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyLocation.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyLocation.h"; sourceTree = "<group>"; };
+		B3C9E022E7148CFE00A33FA1FD29C270 /* KinveyUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyUser.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyUser.h"; sourceTree = "<group>"; };
+		BF30E2315FAA46827417701C55D669FD /* KCSStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSStore.h"; sourceTree = "<group>"; };
+		C1D02F6ACC97D84D9CF00E511E12D0BB /* KCSClient+KinveyDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "KCSClient+KinveyDataStore.h"; path = "KinveyKit-1.41.1/include/KinveyKit/KCSClient+KinveyDataStore.h"; sourceTree = "<group>"; };
+		C442E78EFBB15674D4706AC69D8FA5A1 /* Pods-Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Test.debug.xcconfig"; sourceTree = "<group>"; };
+		CDAA8373C828BFB34B8520BC88CD0558 /* KCSUserDiscovery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSUserDiscovery.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSUserDiscovery.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFAA1E959E6264CB184654B0D6F50548 /* KCSUser2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSUser2.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSUser2.h"; sourceTree = "<group>"; };
+		D0456E149194B0416183658EAE835159 /* KCSDataStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSDataStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSDataStore.h"; sourceTree = "<group>"; };
+		D2DBFE9E784B97CC41FAF3BCE086F61C /* KCSReduceFunction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSReduceFunction.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSReduceFunction.h"; sourceTree = "<group>"; };
+		D8CC912C0B0C670B7718437FCCAE1882 /* KCSMetadata.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSMetadata.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSMetadata.h"; sourceTree = "<group>"; };
+		E04582B9A1CA1D268EF381E4159D594C /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		E18E67895835BCBEE3F2BF8C51906CEE /* KCSEntityDict.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSEntityDict.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSEntityDict.h"; sourceTree = "<group>"; };
+		E4EF6377385221F9EECDF657AB004C42 /* KCSFileStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSFileStore.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSFileStore.h"; sourceTree = "<group>"; };
+		E6088FB355A540D69FEB3DB3497D8786 /* KCSLogSink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSLogSink.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSLogSink.h"; sourceTree = "<group>"; };
+		E616E88CF6B6EACDC50739FC436DF65D /* KCSClient2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSClient2.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSClient2.h"; sourceTree = "<group>"; };
+		E716825685D870A52D07D5A86C70BF92 /* KCSURLProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KCSURLProtocol.h; path = "KinveyKit-1.41.1/include/KinveyKit/KCSURLProtocol.h"; sourceTree = "<group>"; };
+		E8812030B1AE14904E7DC404AEC19EE8 /* Pods-Test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Test-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9FD1FB1F624A6AC0EC4856BEEE914B6 /* KinveyErrorCodes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyErrorCodes.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyErrorCodes.h"; sourceTree = "<group>"; };
+		ED4B390165FF5CEF491BBA291D02441A /* NSURL+KinveyAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURL+KinveyAdditions.h"; path = "KinveyKit-1.41.1/include/KinveyKit/NSURL+KinveyAdditions.h"; sourceTree = "<group>"; };
+		F25A18C5E779559707E18B1D86304F59 /* KinveyBlocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyBlocks.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyBlocks.h"; sourceTree = "<group>"; };
+		FF6C4E77F2E6E8C4E3EEEC67ED656E0E /* KinveyKit2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KinveyKit2.h; path = "KinveyKit-1.41.1/include/KinveyKit/KinveyKit2.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98F912F94307FAB7CD6719B8D9608071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE7997952892D11ABB8214250659FE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD4AFA3E02FFBD5DE4FBBF90EDB9F4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200C61A891EFF3E22CAC36F866F0FE4A /* libKinveyKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		19C9E98B5B5E1CCC408504080C873DDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70376BB4FE9D1C4CC94AA84902170F6D /* GoogleMaps.framework */,
+				3E98FB265B854F649EEBB550EF4A9DA7 /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		42136095837FD9F23492B743751A945F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8F179BC99A9D9C73AFA489A9F346D0E7 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		49F38B3D50C8530F2E5FB5F7E061DC2C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0A0E26B136B48EB6AFD179870B6C87F /* Pods-Test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4C487A137E0175FBC984A36D708660A3 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				42136095837FD9F23492B743751A945F /* Base */,
+				ECB563B17A635F1278E43FEA428091B7 /* Maps */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		63F6A7F1D0CF3EDD889BDC319837D5CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7AA39B4814E3A0DB306B10448351606 /* libPods-Test.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6658B15DD49377EC8F2CD4084CF46F14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C487A137E0175FBC984A36D708660A3 /* GoogleMaps */,
+				AC89AF22CE104D1C53B8C7B6ABF5F4EC /* GooglePlacePicker */,
+				E3A56955A8956BCDBCBAC0C5C553D0B3 /* GooglePlaces */,
+				D85D0A0A549E250B3AEFB8FEEE896C02 /* KinveyKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		669A88870433749CCA7C9DC14B88CD88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				061E92BB2BCCEB75964E98508C898730 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7B15A53DF8887D7260087F12B710A529 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E04582B9A1CA1D268EF381E4159D594C /* GooglePlacePicker.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6658B15DD49377EC8F2CD4084CF46F14 /* Pods */,
+				63F6A7F1D0CF3EDD889BDC319837D5CC /* Products */,
+				49F38B3D50C8530F2E5FB5F7E061DC2C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F179BC99A9D9C73AFA489A9F346D0E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				729E541BB66F5F48567A361441AC035F /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC89AF22CE104D1C53B8C7B6ABF5F4EC /* GooglePlacePicker */ = {
+			isa = PBXGroup;
+			children = (
+				FA473597F14A343D86C2AE2F8BAA657F /* Frameworks */,
+				7B15A53DF8887D7260087F12B710A529 /* Resources */,
+			);
+			path = GooglePlacePicker;
+			sourceTree = "<group>";
+		};
+		AD84477E42FD25D72D87F7E769210924 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B22A64345FA4338F1D90FC31FB3A26DC /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D85D0A0A549E250B3AEFB8FEEE896C02 /* KinveyKit */ = {
+			isa = PBXGroup;
+			children = (
+				9771AAEA03703EAD71907902BD8E5D4E /* CLLocation+Kinvey.h */,
+				9518066445150E189288201B800AEB08 /* KCSAppdataStore.h */,
+				698888E64E9D93E5F5EA1ADCE9DA5D1D /* KCSAuthCredential.h */,
+				14101E959CA55D257A059451B3E92B45 /* KCSBackgroundAppdataStore.h */,
+				32513F0CB0472BE9136063725A583FED /* KCSBase64.h */,
+				83AA86F845897C1431842283A0B78899 /* KCSBlockDefs.h */,
+				7DAED8E7FB5E174C500F220BCC85E233 /* KCSCachedStore.h */,
+				7060B820262650771767225FFE201B1E /* KCSCacheUpdatePolicy.h */,
+				6B6673C2DDEA6766E4F05889DA7BDC7F /* KCSClient.h */,
+				C1D02F6ACC97D84D9CF00E511E12D0BB /* KCSClient+KinveyDataStore.h */,
+				E616E88CF6B6EACDC50739FC436DF65D /* KCSClient2.h */,
+				46E1F4096F19887D0145EB30E8F9C8F2 /* KCSClientConfiguration.h */,
+				6CD5475DA7EB239DCA70F7DB9D816888 /* KCSCustomEndpoints.h */,
+				D0456E149194B0416183658EAE835159 /* KCSDataStore.h */,
+				E18E67895835BCBEE3F2BF8C51906CEE /* KCSEntityDict.h */,
+				24054E7A51F23DC83C673512054DC70A /* KCSFacebookHelper.h */,
+				1BA7D501395C6F8D736E99A1AD3C0420 /* KCSFile.h */,
+				E4EF6377385221F9EECDF657AB004C42 /* KCSFileStore.h */,
+				9ED552F46C5FFDA83E69BF63062254AE /* KCSGroup.h */,
+				9875F25C1B87E7281A433B9AC3F110FD /* KCSLinkedAppdataStore.h */,
+				E6088FB355A540D69FEB3DB3497D8786 /* KCSLogSink.h */,
+				D8CC912C0B0C670B7718437FCCAE1882 /* KCSMetadata.h */,
+				4DFC7D245AE82F97DAEBB0E2F93D4EF5 /* KCSOfflineUpdateDelegate.h */,
+				74AF9545D8C51B25757D7F9E1A442572 /* KCSPing2.h */,
+				348E3B70EE46E8F8AB8D8A7A590E2376 /* KCSPush.h */,
+				1DD5C7B154FDC726DA80892417310A08 /* KCSPush2.h */,
+				8C598DEA28DE9D9F96D4780FDE79D492 /* KCSQuery.h */,
+				4898E502BBD2F60F81C67BC2A23DF5DD /* KCSQuery2.h */,
+				763A494CAD943ECF7B2C4855DD40E312 /* KCSReachability.h */,
+				D2DBFE9E784B97CC41FAF3BCE086F61C /* KCSReduceFunction.h */,
+				343F1914D45ECED2433DF59AF4D70F54 /* KCSRequest.h */,
+				2D7B847B2AE552402ADC20D1CEB770F4 /* KCSRequestConfiguration.h */,
+				BF30E2315FAA46827417701C55D669FD /* KCSStore.h */,
+				E716825685D870A52D07D5A86C70BF92 /* KCSURLProtocol.h */,
+				09192D57000C5D636453A1B7095B264B /* KCSUser+SocialExtras.h */,
+				CFAA1E959E6264CB184654B0D6F50548 /* KCSUser2.h */,
+				57048BCD7963DD3631181A0A6BC7DDB6 /* KCSUser2+KinveyUserService.h */,
+				326271367F3B9C91E93E2288A0519E88 /* KCSUserActionResult.h */,
+				CDAA8373C828BFB34B8520BC88CD0558 /* KCSUserDiscovery.h */,
+				564B5FAD67DB81AC2D26FC2FA2BEC008 /* KCSWebView.h */,
+				F25A18C5E779559707E18B1D86304F59 /* KinveyBlocks.h */,
+				775A05A31914406E4CD746FCC05ED786 /* KinveyCollection.h */,
+				44223FBD3BC973292636B3CF4219327E /* KinveyCore.h */,
+				67F72A4EB54C2119B2CF30770E0B1C4B /* KinveyDataStore.h */,
+				1C716B096C0C27EB4C34F779AE4BE237 /* KinveyEntity.h */,
+				E9FD1FB1F624A6AC0EC4856BEEE914B6 /* KinveyErrorCodes.h */,
+				12E89B4AAD6EB1C54800C320C63B6AE3 /* KinveyFileStore.h */,
+				760DD66B6B1671437F056CEE23B76337 /* KinveyHeaderInfo.h */,
+				563A0BD9AFC5E7B4CDB3EF64241982BE /* KinveyKit.h */,
+				FF6C4E77F2E6E8C4E3EEEC67ED656E0E /* KinveyKit2.h */,
+				7FB444DB1F3C50CF4353EC59956B661D /* KinveyKitExtras.h */,
+				B307392E95F5E5634131DAE5E1608B43 /* KinveyLocation.h */,
+				1E5DBEC46DBF03B8D4F7AC4170B8ACBD /* KinveyPersistable.h */,
+				2F2268268A217D37B25D7194FAFC7BB1 /* KinveyPing.h */,
+				B3C9E022E7148CFE00A33FA1FD29C270 /* KinveyUser.h */,
+				328E2C67E2EC2F818CF907B2F0A7508D /* KinveyUserService.h */,
+				400FC5FEE52517C648C812C847E6821D /* KinveyVersion.h */,
+				7384798F25DA99015144D3D5E4019088 /* NSString+KinveyAdditions.h */,
+				ED4B390165FF5CEF491BBA291D02441A /* NSURL+KinveyAdditions.h */,
+				0DD4AFA3E02FFBD5DE4FBBF90EDB9F4B /* Frameworks */,
+			);
+			path = KinveyKit;
+			sourceTree = "<group>";
+		};
+		E0A0E26B136B48EB6AFD179870B6C87F /* Pods-Test */ = {
+			isa = PBXGroup;
+			children = (
+				920A10832FB38D2B738C95033142D121 /* Pods-Test-acknowledgements.markdown */,
+				E8812030B1AE14904E7DC404AEC19EE8 /* Pods-Test-acknowledgements.plist */,
+				34AB7A009B93A7F6124CD64F7BE67F24 /* Pods-Test-dummy.m */,
+				2A72899288972745BA643575E877AECE /* Pods-Test-frameworks.sh */,
+				057B9B5664EBDF99F445A06963F992B8 /* Pods-Test-resources.sh */,
+				C442E78EFBB15674D4706AC69D8FA5A1 /* Pods-Test.debug.xcconfig */,
+				2F1C5FEB70200C53A4C15811385BF48A /* Pods-Test.release.xcconfig */,
+			);
+			name = "Pods-Test";
+			path = "Target Support Files/Pods-Test";
+			sourceTree = "<group>";
+		};
+		E3A56955A8956BCDBCBAC0C5C553D0B3 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				AD84477E42FD25D72D87F7E769210924 /* Frameworks */,
+				EBF78941EE2FD4A1EDC597AC9E3C7FA0 /* Resources */,
+			);
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		EBF78941EE2FD4A1EDC597AC9E3C7FA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B381D7700770CDAC5A2A7446707C9DC /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ECB563B17A635F1278E43FEA428091B7 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				19C9E98B5B5E1CCC408504080C873DDE /* Frameworks */,
+				669A88870433749CCA7C9DC14B88CD88 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		FA473597F14A343D86C2AE2F8BAA657F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20C14EAEC297B6264BFE47D45239BDDA /* GooglePlacePicker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DCFBDEEA19FFA47447E8CBFE00C2432 /* Pods-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF3723BCF30DFF4AF9E8FE7F6579FB59 /* Build configuration list for PBXNativeTarget "Pods-Test" */;
+			buildPhases = (
+				8AF3C5029842333CDDF0D4606760F2BA /* Sources */,
+				98F912F94307FAB7CD6719B8D9608071 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Test";
+			productName = "Pods-Test";
+			productReference = A7AA39B4814E3A0DB306B10448351606 /* libPods-Test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 63F6A7F1D0CF3EDD889BDC319837D5CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DCFBDEEA19FFA47447E8CBFE00C2432 /* Pods-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8AF3C5029842333CDDF0D4606760F2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E4E876E772356344DA21CFADB39BD3 /* Pods-Test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F6E181EAB24280412028ECCB8015D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D4F11DCF93CB8BB5A1E33CE0D5BF17B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1C5FEB70200C53A4C15811385BF48A /* Pods-Test.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A29D7B4850CDFED870E7CEBE7DAC0E63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D47CEABD723BEF5E42EB11BE6390C13F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C442E78EFBB15674D4706AC69D8FA5A1 /* Pods-Test.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29D7B4850CDFED870E7CEBE7DAC0E63 /* Debug */,
+				7F6E181EAB24280412028ECCB8015D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF3723BCF30DFF4AF9E8FE7F6579FB59 /* Build configuration list for PBXNativeTarget "Pods-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47CEABD723BEF5E42EB11BE6390C13F /* Debug */,
+				9D4F11DCF93CB8BB5A1E33CE0D5BF17B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
