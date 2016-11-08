@@ -41,10 +41,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    [GMSPlacesClient provideAPIKey:@"AIzaSyDaExY2rtma-tpHZU5JQ6cPByudRjcvaoI"];
-    [[KCSClient sharedClient] initializeKinveyServiceForAppKey:@"kid_H1abYn50"
-                                                 withAppSecret:@"8dfa4eb83baa40398a29141417ad8ba9"
-                                                  usingOptions:nil];
+    
     UIUserNotificationType types = (UIUserNotificationType) (UIUserNotificationTypeBadge |
                                                              UIUserNotificationTypeSound | UIUserNotificationTypeAlert);
     
